@@ -5,25 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>بورتفوليو | جومانه عبد الجليل</title>
     <style>
-        body { font-family: Tahoma, sans-serif; background-color: #f4f4f9; color: #333; text-align: center; padding: 50px; }
-        header { background: #007bff; color: white; padding: 30px; border-radius: 8px; }
-        .btn { display: inline-block; margin-top: 15px; background: white; color: #007bff; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; }
-        .projects { margin-top: 40px; text-align: right; max-width: 600px; margin-left: auto; margin-right: auto; }
+        body { font-family: Tahoma, sans-serif; background-color: #f4f4f9; color: #333; margin: 0; padding: 20px; text-align: center; }
+        header { background: #007bff; color: white; padding: 40px 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .btn { display: inline-block; margin-top: 15px; background: white; color: #007bff; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.3s; }
+        .btn:hover { background: #e2e6ea; }
+        .projects { margin-top: 40px; text-align: right; max-width: 700px; margin-left: auto; margin-right: auto; }
+        .projects h2 { text-align: center; color: #007bff; margin-bottom: 20px; }
         .project-card { background: white; padding: 20px; margin-bottom: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .project-card h3 { margin-top: 0; color: #333; }
+        .project-card a { display: inline-block; margin-top: 10px; color: #007bff; text-decoration: none; font-weight: bold; }
+        .project-card a:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
     <header>
         <h1>أهلاً بك، أنا جومانه عبد الجليل</h1>
-        <p>طالبة علوم حسب ونظم معلومات | مطورة برمجيات</p>
-        <a href="cv.pdf" target="_blank" class="btn">استعراض السيرة الذاتية (CV)</a>
+        <p>طالبة علوم حاسب ونظم معلومات | مطورة برمجيات</p>
+        <a href="Jomana_CV.docx" target="_blank" class="btn">استعراض / تحميل السيرة الذاتية (CV)</a>
     </header>
 
     <section class="projects">
         <h2>مشاريعي البرمجية</h2>
+        
+        <!-- نظام إدارة المستشفيات -->
         <div class="project-card">
-            <h3>Study Buddy (Python & MySQL)</h3>
-            <p>تطبيق لإدارة المواد الدراسية، تسجيل الأهداف، وتتبع ساعات المذاكرة.</p>
+            <h3>Hospital Management System</h3>
+            <p>مشروع متكامل لإدارة المستشفيات وتنظيم العمليات والبيانات.</p>
+            <a href="Hospital Management System.zip" target="_blank">تحميل / عرض المشروع 📥</a>
+        </div>
+
+        <!-- مشروع قواعد البيانات -->
+        <div class="project-card">
+            <h3>SQL Database Project</h3>
+            <p>مشروع تخطيط وتصميم قواعد البيانات وبناء الجداول والعلاقات بدقة.</p>
+            <a href="sql_final_project (1).zip" target="_blank">تحميل / عرض المشروع 📥</a>
+        </div>
+
+        <!-- مشاريع C++ -->
+        <div class="project-card">
+            <h3>C++ Programming Projects</h3>
+            <p>مجموعة من التطبيقات والحلول الخوارزمية بلغة C++.</p>
+            <a href="oop project.cpp" target="_blank">عرض ملف OOP</a> | 
+            <a href="system3.cpp (1).txt" target="_blank">عرض ملف النظام</a>
         </div>
     </section>
 </body>
