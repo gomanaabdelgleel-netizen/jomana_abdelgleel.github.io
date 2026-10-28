@@ -1,52 +1,69 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>بورتفوليو | جومانه عبد الجليل</title>
+    <title>Portfolio | Jomana Abdelgleel</title>
     <style>
-        body { font-family: Tahoma, sans-serif; background-color: #f4f4f9; color: #333; margin: 0; padding: 20px; text-align: center; }
-        header { background: #007bff; color: white; padding: 40px 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f4f9; color: #333; margin: 0; padding: 20px; text-align: left; }
+        header { background: #007bff; color: white; padding: 40px 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center; }
         .btn { display: inline-block; margin-top: 15px; background: white; color: #007bff; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.3s; }
         .btn:hover { background: #e2e6ea; }
-        .projects { margin-top: 40px; text-align: right; max-width: 700px; margin-left: auto; margin-right: auto; }
-        .projects h2 { text-align: center; color: #007bff; margin-bottom: 20px; }
-        .project-card { background: white; padding: 20px; margin-bottom: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .projects { margin-top: 40px; max-width: 800px; margin-left: auto; margin-right: auto; }
+        .projects h2 { text-align: center; color: #007bff; margin-bottom: 25px; }
+        .project-card { background: white; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
         .project-card h3 { margin-top: 0; color: #333; }
-        .project-card a { display: inline-block; margin-top: 10px; color: #007bff; text-decoration: none; font-weight: bold; }
+        .project-card a { display: inline-block; margin-top: 10px; margin-right: 15px; color: #007bff; text-decoration: none; font-weight: bold; }
         .project-card a:hover { text-decoration: underline; }
+        pre { background: #2d2d2d; color: #f8f8f2; padding: 15px; border-radius: 5px; overflow-x: auto; direction: ltr; text-align: left; font-size: 14px; max-height: 250px; }
     </style>
 </head>
 <body>
     <header>
-        <h1>أهلاً بك، أنا جومانه عبد الجليل</h1>
-        <p>طالبة علوم حاسب ونظم معلومات | مطورة برمجيات</p>
-        <a href="Jomana_CV.docx" target="_blank" class="btn">استعراض / تحميل السيرة الذاتية (CV)</a>
+        <h1>Hello, I'm Jomana Abdelgleel</h1>
+        <p>Computer Science & Information Systems Student | Software Developer</p>
+        <a href="Jomana_CV.docx" target="_blank" class="btn">View / Download CV 📄</a>
     </header>
 
     <section class="projects">
-        <h2>مشاريعي البرمجية</h2>
+        <h2>My Projects & Code Showcase</h2>
         
-        <!-- نظام إدارة المستشفيات -->
+        <!-- Hospital Management System -->
         <div class="project-card">
             <h3>Hospital Management System</h3>
-            <p>مشروع متكامل لإدارة المستشفيات وتنظيم العمليات والبيانات.</p>
-            <a href="Hospital Management System.zip" target="_blank">تحميل / عرض المشروع 📥</a>
+            <p>A comprehensive system designed to manage hospital operations, staff, and patient records efficiently.</p>
+            <a href="Hospital Management System.zip" target="_blank">Download Project (.zip) 📥</a>
         </div>
 
-        <!-- مشروع قواعد البيانات -->
+        <!-- SQL Database Project -->
         <div class="project-card">
             <h3>SQL Database Project</h3>
-            <p>مشروع تخطيط وتصميم قواعد البيانات وبناء الجداول والعلاقات بدقة.</p>
-            <a href="sql_final_project (1).zip" target="_blank">تحميل / عرض المشروع 📥</a>
+            <p>Relational database planning, schema design, and precise data querying implementation.</p>
+            <a href="sql_final_project (1).zip" target="_blank">Download Project (.zip) 📥</a>
         </div>
 
-        <!-- مشاريع C++ -->
+        <!-- OOP Project C++ Code Preview -->
         <div class="project-card">
-            <h3>C++ Programming Projects</h3>
-            <p>مجموعة من التطبيقات والحلول الخوارزمية بلغة C++.</p>
-            <a href="oop project.cpp" target="_blank">عرض ملف OOP</a> | 
-            <a href="system3.cpp (1).txt" target="_blank">عرض ملف النظام</a>
+            <h3>OOP Project (C++)</h3>
+            <p>Object-Oriented Programming implementation showcasing classes, inheritance, and encapsulation.</p>
+            <a href="oop project.cpp" target="_blank">View Raw File 🔗</a>
+            <pre><code>
+// OOP Project Preview
+#iostream>
+using namespace std;
+// Check the full file link above for complete source code.
+            </code></pre>
+        </div>
+
+        <!-- System C++ Code Preview -->
+        <div class="project-card">
+            <h3>System Management Code (C++)</h3>
+            <p>Algorithmic logic and system-level operations implemented in C++.</p>
+            <a href="system3.cpp (1).txt" target="_blank">View Raw File 🔗</a>
+            <pre><code>
+// System C++ Code Preview
+// Structured logic and algorithmic solutions.
+            </code></pre>
         </div>
     </section>
 </body>
